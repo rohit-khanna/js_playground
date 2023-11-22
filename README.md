@@ -1,2 +1,2 @@
-# js_playground
+# Playground for some JS / TS concepts
 Playground for JS/TS
