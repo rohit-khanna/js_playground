@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secondary</title>
+    <script src="./script.js"></script>
+  </head>
+  <body style="font-family: Verdana, Geneva, Tahoma, sans-serif; width: 60%; margin:0 auto;">
+    <div style="display: flex; justify-content: space-between;">
+        <div>
+          <h3>Read Session storage</h3>
+          <pre>Read Session Storage for key 'test_key'</pre>
+          <button type="button" onclick="read()">Read Session Storage</button>
+          <span id="divTestKey">{no-data}</span>
+        </div>
+        <div>
+          <h3>Override Session Storage</h3>
+          <pre>key 'test_key'</pre>
+          <input type="text" id="inputOverride" />
+          <button type="button" onclick="writeVal()">Update Session Storage</button>
+        </button>
+         </div>
+       </div>
+  </body>
+</html>

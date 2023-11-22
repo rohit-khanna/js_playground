@@ -1,0 +1,9 @@
+{
+  "name": "js_playground",
+  "version": "1.0.0",
+  "description": "This is a Playground for JS/TS concepts",
+  "main": "index.js",
+  "repository": "https://github.com/rohit-khanna/js_playground.git",
+  "author": "Rohit Khanna",
+  "license": "MIT"
+}
